@@ -6,8 +6,14 @@ end
 
 array.push(11)
 
-arr.unshift(0)
+array.unshift(0)
+
+puts array
 
 array.pop
 
 array.push(3)
+
+puts array
+
+array.uniq!
